@@ -35,7 +35,7 @@ export default function CheckoutPage({
 
   // Fetch promos on load
   useEffect(() => {
-    initRefearnapp("https://refearnapp.com");
+    initRefearnapp("https://voteflow.xyz");
     getAllAvailablePromos().then(setAvailablePromos);
   }, []);
   async function handleManualTrack() {
