@@ -31,7 +31,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
         <Script
-          src="https://voteflow.xyz/affiliateTrackingJavascript.js"
+          src="https://origin.refearnapp.com/affiliateTrackingJavascript.js"
           strategy="afterInteractive"
         />
         {/*<AffiliateScriptBridge />*/}
